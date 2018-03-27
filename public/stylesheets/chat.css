@@ -1,0 +1,73 @@
+* {
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    line-height:18px;
+}
+div {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content {
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+    background: white;
+    overflow-y: scroll;
+    border: 1px solid lightskyblue;
+    height: 400px;
+}
+#input {
+    border-radius: 2px;
+    border: 1px solid lightskyblue;
+    margin-top: 10px;
+    padding: 4px;
+    width: 361px;
+    overflow-y: scroll;
+}
+#status {
+    width:88px; display:block; float:left; margin-top:15px;
+}
+
+#header {
+    text-align: center;
+    background: lightskyblue;
+    color: forestgreen;
+    height: 50px;
+    font-size: 20px;
+    padding: 8px;
+}
+#messageInput{
+    display: inline-table;
+}
+#sendButton{
+    border: 1px solid lightskyblue;
+    margin-top: 10px;
+    background: lightskyblue;
+}
+.userMessage {
+    /*border: 2px solid #dedede;*/
+    /*background-color: lightskyblue;*/
+    /*border-radius: 5px;*/
+    /*padding: 10px;*/
+    /*margin: 10px 0;*/
+    /* border: 1px solid gray; */
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 5px 0; */
+    display: inline-block;
+}
+
+.responseMessage {
+    /*border: 2px solid #dedede;*/
+    border-radius: 5px;
+    padding: 10px;
+    /*margin: 10px 0;*/
+    background-color: lightseagreen;
+    display: inline-block;
+}

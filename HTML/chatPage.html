@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple chat</title>
+    <!-- Latest compiled and minified CSS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+
+    <script src="../public/javascripts/chatApp.js"></script>
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/chat.css">
+</head>
+<body>
+<div id="header">Chat Bot for Clinical Queries</div>
+<div id="content"></div>
+<div>
+    <span id="status">Send Message</span>
+    <div class="input-group" id="messageInput">
+        <input type="text" class="form-control" id="input">
+            <span class="input-group-btn">
+            <button id="sendButton" class="btn btn-secondary" type="button">
+                <span  class="glyphicon glyphicon-share-alt"></span>
+            </button>
+      </span>
+    </div>
+</div>
+</body>
+</html>
